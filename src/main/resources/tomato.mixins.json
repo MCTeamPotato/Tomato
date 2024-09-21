@@ -5,10 +5,11 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "tomato.refmap.json",
   "mixins": [
-    "MinecraftServerMixin",
-    "ServerChunkCacheMixin"
+    "MinecraftServerMixin"
   ],
   "client": [
+    "MinecraftMixin",
+    "PauseScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
